@@ -1,20 +1,25 @@
 {
  "sections": [
   {
+   "id": "5a37e575-4a4f-8bf5-2e3f-23a444d91fc0",
+   "title": "Symmetric Encryption",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Symmetric-Encryption-5a37.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "a6584dc1-1c51-64fe-d8ba-bacdf87e8550",
    "title": "The Main Tenets",
-   "files": [
-    {
-     "path": ".guides/img/logos-small.png",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
+   "files": [],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-Main-Tenets-a658.md",
-   "chapter": true,
+   "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
@@ -64,7 +69,7 @@
       "time": 0,
       "type": "file_open",
       "content": ".guides/img/asymmetric_encryption.png",
-      "key": "c1419d79-f280-428c-b08c-6d27a4e341ab"
+      "key": "74c45d3a-5a61-4e42-a2ca-9abef1b57ecc"
      },
      {
       "action": "open",
@@ -72,7 +77,7 @@
       "time": 22,
       "type": "file_open",
       "content": ".guides/img/integrity.png",
-      "key": "c7054ab2-d09e-49c6-b0f0-e4b6f1512cfc"
+      "key": "592f7921-9205-47e8-a89e-1a8fbac35344"
      },
      {
       "action": "open",
@@ -80,7 +85,7 @@
       "time": 30,
       "type": "file_open",
       "content": ".guides/img/authenticity.png",
-      "key": "4ea9813a-04d2-4256-b2a5-633b1cccf676"
+      "key": "47acb398-4599-4bbd-86ae-71e5028cd5de"
      },
      {
       "action": "open",
@@ -88,7 +93,7 @@
       "time": 39,
       "type": "file_open",
       "content": ".guides/img/non-repudiation-frame-work.gif",
-      "key": "3e7f8016-68f2-4cd8-9e47-90877dc12185"
+      "key": "f22d0a51-51fa-4021-901f-dff9b6d9df24"
      }
     ]
    }
@@ -125,7 +130,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Caesar-Cipher-1dd8.md",
-   "chapter": true,
+   "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
@@ -351,7 +356,14 @@
   {
    "id": "0aea8b8a-9ae1-245d-3df7-f4359fc01908",
    "title": "Hands On RSA",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: cd rsa",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Hands-On-RSA-0aea.md",

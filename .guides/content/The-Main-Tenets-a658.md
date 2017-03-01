@@ -6,4 +6,3 @@ The main tenets of Information Security are
 - Authenticity
 - Nonrepudiation
 
-![](.guides/img/logos-small.png)
