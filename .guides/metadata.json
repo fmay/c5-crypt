@@ -1,0 +1,314 @@
+{
+ "sections": [
+  {
+   "id": "a6584dc1-1c51-64fe-d8ba-bacdf87e8550",
+   "title": "The Main Tenets",
+   "files": [
+    {
+     "path": ".guides/img/logos-small.png",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-Main-Tenets-a658.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "fce5a106-e5ca-2ec8-3868-fb7e82e7602c",
+   "title": "Cryptography",
+   "files": [
+    {
+     "path": "#preview: https://en.wikipedia.org/wiki/Cryptography",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Cryptography-fce5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "cc716ec0-709d-3645-6fb6-3cf57f39e20b",
+   "title": "Tenet Explanations",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Tenet-Explanations-cc71.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "media": {
+    "type": "audio",
+    "name": "Tenet Explanations",
+    "source": "tenet-explanations.mp3",
+    "disabled": false,
+    "actions": [
+     {
+      "action": "open",
+      "tabType": "file",
+      "time": 0,
+      "type": "file_open",
+      "content": "asymmetric-encryption.png",
+      "key": "9531a4f4-0cde-46aa-9ed6-1da7b002f44a"
+     },
+     {
+      "action": "open",
+      "tabType": "file",
+      "time": 22,
+      "type": "file_open",
+      "content": "integrity.png",
+      "key": "991d5716-9eac-4f3d-852f-20af405b3010"
+     },
+     {
+      "action": "open",
+      "tabType": "file",
+      "time": 30,
+      "type": "file_open",
+      "content": "authenticity.png",
+      "key": "ca8118d0-934f-4997-beb6-27d581b40b52"
+     },
+     {
+      "action": "open",
+      "tabType": "file",
+      "time": 39,
+      "type": "file_open",
+      "content": "non-repudiation-frame-work.gif",
+      "key": "88288de9-0d39-40b3-a906-e8a792bf2b9d"
+     }
+    ]
+   }
+  },
+  {
+   "id": "3502bbde-35f2-6beb-6676-025bb71c05fe",
+   "title": "Cryptology",
+   "files": [],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Cryptology-3502.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ed61a1ab-f98a-724b-3b83-d097e3709acd",
+   "title": "Symmetric Key Cryptography",
+   "files": [],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Symmetric-Key-Cryptography-ed61.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "1dd80aa3-a4a0-2b33-5373-2f567db42317",
+   "title": "Caesar Cipher",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Caesar-Cipher-1dd8.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "6d7de88b-82b5-f4c8-70f3-bd805bbc7f29",
+   "title": "Encrypting practical",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "symkey-1/plaintext.txt",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "symkey-1/ciphertext.txt",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Encrypting-practical-6d7d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "3dad7dab-97e4-e54b-47a7-a5b74bd731ad",
+   "title": "Decrypting practical",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "symkey-1/ciphertext.txt",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Decrypting-practical-3dad.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d99e7b3f-e512-8bf9-a8e8-1368a18c27f6",
+   "title": "The Code",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "symkey-1/caesar-encrypt.py",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "symkey-1/caesar-decrypt.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-Code-d99e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "59d68695-cf0a-9e9a-746c-70fcbf03db94",
+   "title": "Shift Ciphers",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Shift-Ciphers-59d6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ee032af8-9505-2c4e-187e-102b1f584a4c",
+   "title": "Kerckhoffs’s Principle",
+   "files": [
+    {
+     "path": "#preview: https://en.wikipedia.org/wiki/Kerckhoffs's_principle",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Kerckhoffs-s-Principle-ee03.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "a176ce2b-1010-a176-eec0-a29bfe8eb7f6",
+   "title": "Substitution Cipher",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: substitution/index.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Substitution-Cipher-a176.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "8c7d5a65-82e6-e6ab-d968-e04215302966",
+   "title": "Hands On",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: substitution/index.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Hands-On-8c7d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "b2ecb120-971e-fc41-9bc6-31901671f8f9",
+   "title": "Breaking Ciphers",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Breaking-Ciphers-b2ec.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "0f0bec3e-df40-b6c1-5508-68b3c081eff6",
+   "title": "New Section 15",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-15-0f0b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false
+}
