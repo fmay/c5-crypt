@@ -63,32 +63,32 @@
       "tabType": "file",
       "time": 0,
       "type": "file_open",
-      "content": "asymmetric-encryption.png",
-      "key": "9531a4f4-0cde-46aa-9ed6-1da7b002f44a"
+      "content": ".guides/img/asymmetric_encryption.png",
+      "key": "c1419d79-f280-428c-b08c-6d27a4e341ab"
      },
      {
       "action": "open",
       "tabType": "file",
       "time": 22,
       "type": "file_open",
-      "content": "integrity.png",
-      "key": "991d5716-9eac-4f3d-852f-20af405b3010"
+      "content": ".guides/img/integrity.png",
+      "key": "c7054ab2-d09e-49c6-b0f0-e4b6f1512cfc"
      },
      {
       "action": "open",
       "tabType": "file",
       "time": 30,
       "type": "file_open",
-      "content": "authenticity.png",
-      "key": "ca8118d0-934f-4997-beb6-27d581b40b52"
+      "content": ".guides/img/authenticity.png",
+      "key": "4ea9813a-04d2-4256-b2a5-633b1cccf676"
      },
      {
       "action": "open",
       "tabType": "file",
       "time": 39,
       "type": "file_open",
-      "content": "non-repudiation-frame-work.gif",
-      "key": "88288de9-0d39-40b3-a906-e8a792bf2b9d"
+      "content": ".guides/img/non-repudiation-frame-work.gif",
+      "key": "3e7f8016-68f2-4cd8-9e47-90877dc12185"
      }
     ]
    }
@@ -297,11 +297,64 @@
   },
   {
    "id": "0f0bec3e-df40-b6c1-5508-68b3c081eff6",
-   "title": "New Section 15",
+   "title": "Modern Symmetric Ciphers",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-15-0f0b.md",
+   "content-file": ".guides/content/Modern-Symmetric-Ciphers-0f0b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "7a556bd4-b7ec-f8cf-ad6b-2a2cbc6d6ffa",
+   "title": "AES Encryption",
+   "files": [],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/AES-Encryption-7a55.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "4a8883e2-af95-e1e4-9e83-b5af83e4f629",
+   "title": "Hands On AES",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "aes"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Hands-On-AES-4a88.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "efeeabb1-11a8-ead3-7ec7-0bd97632d1c9",
+   "title": "Asymmetric Encryption",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Asymmetric-Encryption-efee.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "0aea8b8a-9ae1-245d-3df7-f4359fc01908",
+   "title": "Hands On RSA",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Hands-On-RSA-0aea.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

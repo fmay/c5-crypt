@@ -1,10 +1,9 @@
 import base64
-import hashlib
+import sys
+
 from Crypto import Random
 from Crypto.Cipher import AES
 from Crypto.Hash import MD5
-import sys
-import hashlib
 
 def _encode(string):
   return base64.b64encode(string)
@@ -12,64 +11,64 @@ def _encode(string):
 def _decode(string):
   return base64.b64decode(string)
 
-def getAESObject(password, iv):
-  return AES.new(password, AES.MODE_CFB, iv)
+def get_aes_object(password, initial_vector):
+  return AES.new(password, AES.MODE_CFB, initial_vector)
 
 def encrypt(string, password):
-  iv = Random.new().read(16) # initial vector
-  encryptedString = getAESObject(password, iv).encrypt(string)
-  return _encode(iv + encryptedString)
+  initial_vector = Random.new().read(16) # initial vector
+  encrypted_string = get_aes_object(password, initial_vector).encrypt(string)
+  return _encode(initial_vector + encrypted_string)
 
 def decrypt(string, password):
-  encryptedString = _decode(string)
-  iv = encryptedString[:16]
-  return getAESObject(password, iv).decrypt(encryptedString[16:])
+  encrypted_string = _decode(string)
+  initial_vector = encrypted_string[:16]
+  return get_aes_object(password, initial_vector).decrypt(encrypted_string[16:])
 
-def readFile(filename):
-  f  = open(filename, "r")
-  content = f.read()
-  f.close()
+def read_file(filename):
+  handler = open(filename, "r")
+  content = handler.read()
+  handler.close()
   return content
 
-def writeFile(filename, text):
-  f  = open(filename, "w")
-  f.write(text)
-  f.close()
+def write_file(filename, text):
+  handler = open(filename, "w")
+  handler.write(text)
+  handler.close()
 
-def hash(string, size):
-  hashObject = MD5.new(string)
-  hashObject.digest_size = size
-  return hashObject.hexdigest()
+def make_hash(string, size):
+  hash_object = MD5.new(string)
+  hash_object.digest_size = size
+  return hash_object.hexdigest()
 
 def usage():
-  print('Usage: aes.py encrypt|decrypt inputFile <outputFile>')
+  print 'Usage: aes.py encrypt|decrypt inputFile <outputFile>'
   exit(1)
 
 def main():
   arguments = sys.argv
-  if (len(arguments) <  3):
+  if len(arguments) < 3:
     usage()
 
   action = sys.argv[1]
-  inputFile = sys.argv[2]
-  password = raw_input('Enter Password: ')
+  input_file = sys.argv[2]
+  password = raw_input('Enter Password (will be visible): ')
   # fo AES256 we need 32 bit key, lets create it from password
-  passwordHash = hash(password, 32)
-  text = readFile(inputFile)
+  password_hash = make_hash(password, 32)
+  text = read_file(input_file)
 
-  if (action == 'encrypt'): # encription
-    encryptedText = encrypt(text, passwordHash)
-    if (len(sys.argv) == 4):
-      writeFile(sys.argv[3], encryptedText)
+  if action == 'encrypt': # encription
+    encrypted_text = encrypt(text, password_hash)
+    if len(sys.argv) == 4:
+      write_file(sys.argv[3], encrypted_text)
     else:
-      print(encryptedText)
+      sys.stdout.write(encrypted_text)
 
-  elif(action == 'decrypt'): # decryption
-    decryptedText = decrypt(text, passwordHash)
-    if (len(sys.argv) == 4):
-      writeFile(sys.argv[3], decryptedText)
+  elif action == 'decrypt': # decryption
+    decrypted_text = decrypt(text, password_hash)
+    if len(sys.argv) == 4:
+      write_file(sys.argv[3], decrypted_text)
     else:
-      print(decryptedText)
+      sys.stdout.write(decrypted_text)
   else:
     usage()
 
