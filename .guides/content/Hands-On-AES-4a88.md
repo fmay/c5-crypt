@@ -4,10 +4,10 @@ On the left hand side is a terminal window. We have written a program in the Pyt
 
 Press the button below to clean up the folder with the various files. You can press this button each time you want to experiment again.
 
-{Clean Up}(rm aes/dec.txt aes/out.txt)
+{Clean Up}(rm aes/deciphered.txt aes/cipher.txt)
 
 ## Edit your plain text
-The first thing to do is to type some plain text into a file.
+The first thing to do is to type some plain text into a file. Click on `plaintext.txt` in the file tree to open it up.
 
 ## Encrypt
 In the terminal window, type in the following command 

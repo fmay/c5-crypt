@@ -12,5 +12,3 @@ would mean A is mapped to Z, B is mapped to Y , etc.
 
 ## Hands On
 You can play with the substitution cipher on the left hand side. Enter some text and press the buttons.
-
-x

@@ -3,7 +3,13 @@
   {
    "id": "5a37e575-4a4f-8bf5-2e3f-23a444d91fc0",
    "title": "Symmetric Encryption",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Symmetric-Encryption-5a37.md",
@@ -69,7 +75,7 @@
       "time": 0,
       "type": "file_open",
       "content": ".guides/img/asymmetric_encryption.png",
-      "key": "74c45d3a-5a61-4e42-a2ca-9abef1b57ecc"
+      "key": "a9315342-788e-474c-82fb-571c18b3c3e5"
      },
      {
       "action": "open",
@@ -77,7 +83,7 @@
       "time": 22,
       "type": "file_open",
       "content": ".guides/img/integrity.png",
-      "key": "592f7921-9205-47e8-a89e-1a8fbac35344"
+      "key": "e222c1cc-2314-4e7a-b1d9-15bd65f16174"
      },
      {
       "action": "open",
@@ -85,7 +91,7 @@
       "time": 30,
       "type": "file_open",
       "content": ".guides/img/authenticity.png",
-      "key": "47acb398-4599-4bbd-86ae-71e5028cd5de"
+      "key": "acbb0707-e24f-4d07-9943-44d57ed83f75"
      },
      {
       "action": "open",
@@ -93,7 +99,7 @@
       "time": 39,
       "type": "file_open",
       "content": ".guides/img/non-repudiation-frame-work.gif",
-      "key": "f22d0a51-51fa-4021-901f-dff9b6d9df24"
+      "key": "a73465de-7d6d-4ac0-aae5-e46c9d0baa99"
      }
     ]
    }
@@ -202,8 +208,10 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels",
-   "path": [],
+   "layout": "2-panels-tree",
+   "path": [
+    "symkey-1"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/The-Code-d99e.md",
    "chapter": false,
@@ -231,7 +239,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Kerckhoffs-s-Principle-ee03.md",
@@ -246,14 +254,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "#preview: substitution/index.html",
-     "panel": 0,
-     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Substitution-Cipher-a176.md",
@@ -330,6 +333,11 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "#terminal: cd aes",
+     "panel": 0,
+     "action": "open"
     }
    ],
    "layout": "2-panels-tree",
@@ -345,7 +353,13 @@
   {
    "id": "efeeabb1-11a8-ead3-7ec7-0bd97632d1c9",
    "title": "Asymmetric Encryption",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Asymmetric-Encryption-efee.md",
@@ -358,13 +372,19 @@
    "title": "Hands On RSA",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "#terminal: cd rsa",
      "panel": 0,
      "action": "open"
     }
    ],
    "layout": "2-panels-tree",
-   "path": [],
+   "path": [
+    "rsa"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Hands-On-RSA-0aea.md",
    "chapter": false,
@@ -375,5 +395,6 @@
  "theme": "light",
  "scripts": [],
  "lexikonTopic": "",
- "suppressPageNumbering": false
+ "suppressPageNumbering": false,
+ "hideMenu": false
 }
