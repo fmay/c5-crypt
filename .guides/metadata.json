@@ -141,6 +141,50 @@
    "teacherOnly": false
   },
   {
+   "id": "59639cf0-c0b6-8f19-9c6e-9a75875d2e07",
+   "title": "Block Flowchart ",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "flode/caesar-block.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Block-Flowchart--5963.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "7841f5b5-8fff-a056-5101-c4024e415ad9",
+   "title": "Flowchart 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "flode/caesar-code.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Flowchart-2-7841.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "6d7de88b-82b5-f4c8-70f3-bd805bbc7f29",
    "title": "Encrypting practical",
    "files": [
