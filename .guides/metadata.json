@@ -75,7 +75,7 @@
       "time": 0,
       "type": "file_open",
       "content": ".guides/img/asymmetric_encryption.png",
-      "key": "a9315342-788e-474c-82fb-571c18b3c3e5"
+      "key": "e0c97a5f-918c-434f-b8da-d0b63feecf86"
      },
      {
       "action": "open",
@@ -83,7 +83,7 @@
       "time": 22,
       "type": "file_open",
       "content": ".guides/img/integrity.png",
-      "key": "e222c1cc-2314-4e7a-b1d9-15bd65f16174"
+      "key": "47bfb273-25cc-441d-bb1f-46352c535576"
      },
      {
       "action": "open",
@@ -91,7 +91,7 @@
       "time": 30,
       "type": "file_open",
       "content": ".guides/img/authenticity.png",
-      "key": "acbb0707-e24f-4d07-9943-44d57ed83f75"
+      "key": "21510c41-05c4-4230-8882-60fe4fd4ceeb"
      },
      {
       "action": "open",
@@ -99,7 +99,7 @@
       "time": 39,
       "type": "file_open",
       "content": ".guides/img/non-repudiation-frame-work.gif",
-      "key": "a73465de-7d6d-4ac0-aae5-e46c9d0baa99"
+      "key": "3e1baef6-7a19-42f9-8b39-a2f1a282c869"
      }
     ]
    }
@@ -154,7 +154,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Block-Flowchart--5963.md",
@@ -440,5 +440,5 @@
  "scripts": [],
  "lexikonTopic": "",
  "suppressPageNumbering": false,
- "hideMenu": false
+ "hideMenu": true
 }
